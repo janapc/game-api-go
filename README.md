@@ -39,6 +39,9 @@ Start Docker in your machine and run this commands in your terminal:
 ## up mongodb, kafka and mysql
 ❯ docker compose up -d
 
+## run this command to install dependencies:
+❯ go mod tidy
+
 ## run this command to start api(localhost:8080):
 ❯ go run main.go
 
